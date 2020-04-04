@@ -1,12 +1,12 @@
 import React from 'react';
 import TextEditor from './components/TextEditor'
 
-
+import './global.css';
 
 function App() {
   return (
     <div className="App">
-      <TextEditor/>
+      <TextEditor className="textEditor"/>
     </div>
   );
 }

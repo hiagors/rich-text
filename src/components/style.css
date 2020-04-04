@@ -1,0 +1,24 @@
+.container {
+  width: 50%;
+  min-height: 150px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px 30px 30px 30px;
+}
+
+.menuBar{
+  margin: 10px 0px 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.button{
+  background-color: transparent;
+  border: 0;
+  transition: opacity 0.2s;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.button:hover{
+  opacity: 0.6;
+}
